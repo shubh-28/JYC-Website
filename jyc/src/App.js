@@ -1,9 +1,12 @@
-import Header from './components/Header/Header';      // aise dalna hai file ka link, make sure krna ki folder achi tarah se hirearchy mai rahe
+     // aise dalna hai file ka link, make sure krna ki folder achi tarah se hirearchy mai rahe
+import Landing from './components/Landing/Landing';
+import About from './components/About/About';
 function App() {
   return (
     <div className="App">
-     <Header/>          {/* aise add krna hai components */}
-
+              {/* aise add krna hai components */}
+     <Landing/> 
+     <About/>
     </div>
   );
 }
